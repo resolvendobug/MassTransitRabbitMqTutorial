@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Infrastructure\Persistence\MassTransitTutorial.Persistence.csproj" />
+    <ProjectReference Include="..\Domain\MassTransitTutorial.Domain.csproj" />
+    <ProjectReference Include="..\Infrastructure\Mappings\MassTransitTutorial.Mappings.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Masstransit" Version="8.0.16" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+  </PropertyGroup>
+
+</Project>
